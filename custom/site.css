@@ -1,0 +1,93 @@
+body {
+	margin: 0; padding: 0;
+	font: 70%/1.5 Verdana, Tahoma, Arial, Helvetica, sans-serif;
+	color: #333; 
+	background: #FFF url(http://www.coldbox.org/includes/images/bg.gif) repeat-x;	
+}
+#header {
+	position: relative;
+	margin: 0; padding: 0;
+	height: 114px;
+}
+#header span#slogan {
+	z-index: 3;
+	position: absolute;
+	left: 3px; bottom: 7px;
+	font: bold 1.2em Verdana, Arial, Tahoma,  Sans-serif;	
+	color: #FFF;
+}
+
+#header-logo {
+	position: relative;
+	clear: both;
+	height: 50px; 
+	margin: 0; padding: 0;	
+}
+#header-logo #logo {
+	position: absolute;
+	top: 3px; left: 5px;
+	font: bold 30px "trebuchet MS", Arial, Tahoma, Sans-Serif;
+	margin: 0; padding: 0;
+	letter-spacing: -1px;
+	color: #000;
+}
+#header-logo #middlebuttonbar{
+	top: 15px;
+	left: 45%;
+	position:absolute;	
+}
+/* @group Navigation Tabs */
+
+#header ul {
+	position: absolute;
+  	margin:0;
+    list-style:none;
+	list-style-image: none;
+	right:-18px ; bottom: 3px;
+	font: bold 11px 'Trebuchet MS', Arial, Sans-serif;
+}
+#header li {
+   display:inline;
+   margin:0; padding:0;
+}
+#header li a {
+   float:left;
+   background: url(http://www.coldbox.org/includes/images/tableft.gif) no-repeat left top;
+   margin:0;
+   padding:0 0 0 4px;
+   text-decoration:none;
+}
+#header li a span {
+   float:left;
+   display:block;
+   background: url(http://www.coldbox.org/includes/images/tabright.gif) no-repeat right top;
+   padding:5px 15px 4px 6px;
+   color:#FFF;
+}
+
+/* Commented Backslash Hack hides rule from IE5-Mac \*/
+#header li a span {float:none;}
+/* End IE5-Mac hack */
+#header li a:hover span {
+	color:#FFF;
+	border: none;
+}
+#header li a:hover {
+   background-position:0% -42px;
+   border: none;
+}
+#header li a:hover span {
+   background-position:100% -42px;
+   border: none;
+}
+#header #current a {
+   background-position:0% -42px;
+   border: none;
+   color: #8FCDFF;
+}
+#header #current a span {
+   background-position:100% -42px;
+   border: none;
+   color: #8FCDFF;
+}
+/* @end */
