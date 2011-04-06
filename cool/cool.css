@@ -31,7 +31,7 @@ border-radius: 1em;-webkit-border-radius: 1em;-moz-border-radius: 1em;
 -webkit-box-shadow: 0.25em 0.25em 1em rgba(0,0,0,0.25);-moz-box-shadow: rgba(0,0,0,0.25) 0.25em 0.25em 1em;display:none}
 #wikiNav #indexguide dt, #wikiNav #indexguide dd {font-weight: normal;font-size: 12px;margin: 2px 0px;padding: 0}
 #wikiNav #indexguide dt {padding:0; color: black; margin: 0.5em 0 0;font-weight:bold}
-#wikiNav #indexguide a {color: white; background: none !important;text-transform:none;float:none;}
+#wikiNav #indexguide a {color: white; background: none !important;text-transform:none;float:none;padding:0px !important}
 #wikiNav #indexguide .L, #wikiNav #indexguide .R {float: left; width: 50%; margin: 0; padding: 0;}
 #wikiNav #indexguide .R {float: right;}
 #wikiNav #indexguide hr { display: block; border: none;height: 1px;color: black;background: black;}
