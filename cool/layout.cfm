@@ -99,7 +99,7 @@
 						  <dt>Models</dt>
 			              <dd><a href="wiki/Models.cfm">ColdBox Models</a></dd>
 						  <dd><a href="wiki/Extras:BaseORMService.cfm">Built-in ORM Services</a></dd>
-			              <dd><a href="wiki/wiki/Extras:CFORM.cfm">ORM Event Handling, AOP, More</a></dd>
+			              <dd><a href="wiki/Extras:CFORM.cfm">ORM Event Handling, AOP, More</a></dd>
 			              <dd><a href="wiki/WireBox.cfm">Dependency Injection via WireBox</a></dd>
 			              
 						  <dt>Views</dt>
@@ -107,7 +107,7 @@
 			              
 						  <dt>Controllers</dt>
 			              <dd><a href="wiki/EventHandlers.cfm">Event Handlers</a></dd>
-			              <dd><a href="wiki/URLMappings">ColdBox SES URL Mapping</a></dd>
+			              <dd><a href="wiki/URLMappings.cfm">ColdBox SES URL Mappings</a></dd>
 						 
 						  <dt>Request Context</dt>
 			              <dd><a href="wiki/RequestContext.cfm">Request Context</a></dd>
@@ -129,7 +129,7 @@
 			              <dd><a href="wiki/Modules.cfm">ColdBox Modules & Architecture</a></dd>
 						  <dd><a href="wiki/Plugins.cfm">ColdBox Plugins</a></dd>
 						  <dd><a href="space/Plugins.cfm">Core Plugins Browser</a></dd>
-						  <dd><a href="wiki/Interceptor.cfm">ColdBox Interceptors</a></dd>
+						  <dd><a href="wiki/Interceptors.cfm">ColdBox Interceptors</a></dd>
 			              <dd><a href="space/Interceptors.cfm">Core Interceptors Browser</a></dd>
 						  
 			              <dt>Testing</dt>
