@@ -99,7 +99,7 @@
 						  <dt>Models</dt>
 			              <dd><a href="wiki/Models.cfm">ColdBox Models</a></dd>
 						  <dd><a href="wiki/Extras:BaseORMService.cfm">Built-in ORM Services</a></dd>
-			              <dd><a href="wiki/Extras:CFORM.cfm">ORM Event Handling, AOP, More</a></dd>
+			              <dd><a href="wiki/Extras:ORMEventHandler.cfm">ORM Event Handling</a></dd>
 			              <dd><a href="wiki/WireBox.cfm">Dependency Injection via WireBox</a></dd>
 			              
 						  <dt>Views</dt>
@@ -108,7 +108,8 @@
 						  <dt>Controllers</dt>
 			              <dd><a href="wiki/EventHandlers.cfm">Event Handlers</a></dd>
 			              <dd><a href="wiki/URLMappings.cfm">ColdBox SES URL Mappings</a></dd>
-						 
+						  <dd><a href="wiki/Modules.cfm">ColdBox Modules & Architecture</a></dd>
+						  
 						  <dt>Request Context</dt>
 			              <dd><a href="wiki/RequestContext.cfm">Request Context</a></dd>
 			              <dd><a href="wiki/RequestContextDecorator.cfm">Extending the Request Context</a></dd>
@@ -124,10 +125,10 @@
 						  <dd><a href="space/Recipes.cfm">ColdBox Recipes</a></dd>
 						  <dd><a href="wiki/Plugins:i18n.cfm">Localization & i18n</a></dd>
 						  <dd><a href="wiki/Interceptors:Security.cfm">Securing your apps</a></dd>
-						
+						  <dd><a href="wiki/WireBox-AOP.cfm">Aspect Oriented Programming</a></dd>
+
 						  <dt>Extending ColdBox</dt>
-			              <dd><a href="wiki/Modules.cfm">ColdBox Modules & Architecture</a></dd>
-						  <dd><a href="wiki/Plugins.cfm">ColdBox Plugins</a></dd>
+			              <dd><a href="wiki/Plugins.cfm">ColdBox Plugins</a></dd>
 						  <dd><a href="space/Plugins.cfm">Core Plugins Browser</a></dd>
 						  <dd><a href="wiki/Interceptors.cfm">ColdBox Interceptors</a></dd>
 			              <dd><a href="space/Interceptors.cfm">Core Interceptors Browser</a></dd>
@@ -188,7 +189,7 @@
 			#rc.oCustomHTML.getAfterSideBar()#
 		</div>
 		<a href="javascript:toggleSidebar()" title="Show SideBar"><img src="layouts/cool/images/sidebar.png" alt="help" border="0" /><a/>&nbsp;
-      	<a href="#event.buildLink(rc.xehSpaceDirectory)#" title="Namespaces"><img src="layouts/cool/images/namespace.png" alt="categories" border="0" /><a/>&nbsp;
+      	<a href="#event.buildLink(rc.xehSpaceDirectory)#" title="Namespaces"><img src="layouts/cool/images/namespace.png" alt="namespaces" border="0" /><a/>&nbsp;
      	<a href="#event.buildLink(rc.xehSpecialCategory)#" title="Categories"><img src="layouts/cool/images/tag_blue.png" alt="categories" border="0" /><a/>&nbsp;
      	<a href="#event.buildLink(rc.xehSpecialHelp)#" title="Help"><img src="layouts/cool/images/help.png" alt="help" border="0" /><a/>&nbsp;
       	<a href="#event.buildLink(rc.xehSpecialFeeds)#" title="RSS Feeds"><img src="layouts/cool/images/feed.png" alt="rss feeds" border="0" /><a/>      	
